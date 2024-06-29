@@ -7,6 +7,8 @@ function countDown() {
   }
   else {
     clearInterval(diff);
+  };
+  if (diff === 0) {
     alert("Вы победили в конкурсе!");
   }
 }
